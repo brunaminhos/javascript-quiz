@@ -1,0 +1,133 @@
+body
+{
+	font-family:Arial, Helvetica, sans-serif, sans-serif;
+	background-color:white;
+	color: #300542 ; /*DarkGoldenRod*/
+	background-size: 160% ;
+	
+	
+}
+h1{
+	font-weight:bold;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color:#300542;  /*black purple*/
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+#page
+{    
+	position: fixed;
+	left:17%;
+    width: 70%;
+	padding: 1%;
+	border: 0.10rem solid#300542 ; /*blackpurple*/
+	box-shadow: 0.1% #e9e2ec;
+	background-color: #300542;
+	
+}
+#text
+{
+	 text-align: center;
+	 color:white;
+}
+.image1{
+	width:100%;
+}
+#quiz
+{
+	height: 50%;
+    width: 60%;
+    position: fixed;
+    left:20%;
+    top: 30%;
+	padding: 2%;
+	border: 0.10rem solid#300542 ; /*blackpurple*/
+	box-shadow: 0.1%;
+	background-color:transparent;
+}
+#question
+{
+   padding: 2.5%;
+   font-size: 1.2rem;
+   background: #300542;  /*black purple*/
+   border-radius: 5%;
+   margin: 0.5rem 1%;
+   color: #D5DBDB ;
+}
+.option{
+	width: 50%;
+	display: inline-block;
+	padding: 1.5% ;
+	background: #D5DBDB;
+	margin: 0.5rem 1%;
+	color: #300542;
+	border: 0.10rem solid #300542 ; 
+	border-radius: 5%;
+}
+
+.option:hover{
+	background: #300542  /*black purple*/;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family:Arial, Helvetica, sans-serif, sans-serif;
+	background-color: #D5DBDB ;
+	width:20%;
+	height: 12%;
+	border: 0.10rem solid#300542 ;
+	box-shadow: 0.1% #fff;
+	cursor: auto;
+	float: right;
+	padding:1%;
+	
+}
+#next:hover{
+	background-color:#300542  /*black purple*/;
+	color: #f6f6f6;	
+}
+#result
+{
+	font-size:25%;
+	text-align: center;
+    height: 12%;
+    width: 60%;
+    position: absolute;
+    left:20%;
+    top: 30%;
+    transform: translateX(-50) translateY(-50);
+	background: rgba(255,255,255,0.5);
+	padding: 20px;
+	border: 1px solid #00038c;
+	box-shadow: 0 0 8px 3px #fff;
+}
+.footer {
+	padding:0.10rem  1%;
+	text-align:right;
+	background:#873600  ;
+	color:white; 
+
+}
+footer a{ 
+	color:white; 
+	text-decoration:none;
+}
+footer a:hover{ 
+	color:white;
+}
+footer a:active{ 
+		font-style:italic;
+}
+.grid-container-pictures {   
+	display: grid;
+	grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+	grid-column-gap: 8%;
+	grid-row-gap: 8%;
+	margin:  2rem;
+}
+
+.grid-container-pictures{
+
+	grid-template-columns: 49%49%;
+
+}
